@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Oakwell Consulting, LLC</title>
+</head>
   <body style="background-color:powderblue;">
     <div>
       <center>
@@ -13,16 +16,14 @@
       <p>
         <script>
 
-          function decryptEmail(encoded) {
-        
-            var address = atob(encoded);
-            window.location.href = "mailto:" + address + "?subject=Info";
-        
+          function abcd(enc) {
+            var dec = atob(enc);
+            window.location.href = dec;
           }
         
         </script>
         
-        <ul><a href="javascript:decryptEmail('aW5mb0BvYWt3ZWxsLWNvbnN1bHRpbmcuY29t');">Contact Us</a></ul>
+        <ul><a href="javascript:abcd('bWFpbHRvOmluZm9Ab2Frd2VsbC1jb25zdWx0aW5nLmNvbT9zdWJqZWN0PUluZm8=');">Contact Us</a></ul>
       </p>
     </div>
   </body>
